@@ -12,6 +12,24 @@ php artisan vendor:publish --provider="ThinkOne\LaravelSproutsocialsApi\ServiceP
 
 ## Usage
 
+```php
+/** @var Metadata $endpoint */
+$endpoint = SproutsocialsApi::endpointGroup(Metadata::class);
+$response = $endpoint->getTags($customerId);
+if($response->successful()) {
+    $tags = $response->json('data');
+}
+```
+
+```php
+/** @var Analytics $endpoint */
+$endpoint = SproutsocialsApi::endpointGroup(Analytics::class);
+$response = $endpoint->getPosts($requestData);
+if($response->successful()) {
+    $posts = $response->json('data');
+}
+```
+
 
 ## Credits
 
