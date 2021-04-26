@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="11" assertions="23" errors="0" warnings="0" failures="0" skipped="0" time="1.417905">
+    <testsuite name="Sproutsocials Test Suite" tests="11" assertions="23" errors="0" warnings="0" failures="0" skipped="0" time="1.417905">
+      <testsuite name="ThinkOne\LaravelSproutsocialsApi\Tests\RequestGroupsTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/RequestGroupsTest.php" tests="4" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.897907">
+        <testcase name="analytics_has_endpoints" class="ThinkOne\LaravelSproutsocialsApi\Tests\RequestGroupsTest" classname="ThinkOne.LaravelSproutsocialsApi.Tests.RequestGroupsTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/RequestGroupsTest.php" line="16" assertions="2" time="0.644861"/>
+        <testcase name="metadata_has_endpoints" class="ThinkOne\LaravelSproutsocialsApi\Tests\RequestGroupsTest" classname="ThinkOne.LaravelSproutsocialsApi.Tests.RequestGroupsTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/RequestGroupsTest.php" line="28" assertions="4" time="0.093891"/>
+        <testcase name="api_client" class="ThinkOne\LaravelSproutsocialsApi\Tests\RequestGroupsTest" classname="ThinkOne.LaravelSproutsocialsApi.Tests.RequestGroupsTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/RequestGroupsTest.php" line="42" assertions="1" time="0.090948"/>
+        <testcase name="customer_id" class="ThinkOne\LaravelSproutsocialsApi\Tests\RequestGroupsTest" classname="ThinkOne.LaravelSproutsocialsApi.Tests.RequestGroupsTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/RequestGroupsTest.php" line="53" assertions="2" time="0.068207"/>
+      </testsuite>
+      <testsuite name="ThinkOne\LaravelSproutsocialsApi\Tests\SproutsocialsApiExceptionTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/SproutsocialsApiExceptionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.142459">
+        <testcase name="has_response" class="ThinkOne\LaravelSproutsocialsApi\Tests\SproutsocialsApiExceptionTest" classname="ThinkOne.LaravelSproutsocialsApi.Tests.SproutsocialsApiExceptionTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/SproutsocialsApiExceptionTest.php" line="13" assertions="1" time="0.142459"/>
+      </testsuite>
+      <testsuite name="ThinkOne\LaravelSproutsocialsApi\Tests\SproutsocialsApiTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/SproutsocialsApiTest.php" tests="6" assertions="13" errors="0" warnings="0" failures="0" skipped="0" time="0.377538">
+        <testcase name="has_getters" class="ThinkOne\LaravelSproutsocialsApi\Tests\SproutsocialsApiTest" classname="ThinkOne.LaravelSproutsocialsApi.Tests.SproutsocialsApiTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/SproutsocialsApiTest.php" line="17" assertions="3" time="0.077763"/>
+        <testcase name="has_not_default_customer_id" class="ThinkOne\LaravelSproutsocialsApi\Tests\SproutsocialsApiTest" classname="ThinkOne.LaravelSproutsocialsApi.Tests.SproutsocialsApiTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/SproutsocialsApiTest.php" line="25" assertions="1" time="0.064719"/>
+        <testcase name="has_default_customer_id" class="ThinkOne\LaravelSproutsocialsApi\Tests\SproutsocialsApiTest" classname="ThinkOne.LaravelSproutsocialsApi.Tests.SproutsocialsApiTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/SproutsocialsApiTest.php" line="33" assertions="1" time="0.049006"/>
+        <testcase name="call_api" class="ThinkOne\LaravelSproutsocialsApi\Tests\SproutsocialsApiTest" classname="ThinkOne.LaravelSproutsocialsApi.Tests.SproutsocialsApiTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/SproutsocialsApiTest.php" line="39" assertions="6" time="0.074822"/>
+        <testcase name="call_api_exception" class="ThinkOne\LaravelSproutsocialsApi\Tests\SproutsocialsApiTest" classname="ThinkOne.LaravelSproutsocialsApi.Tests.SproutsocialsApiTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/SproutsocialsApiTest.php" line="57" assertions="1" time="0.039434"/>
+        <testcase name="endpoint_group" class="ThinkOne\LaravelSproutsocialsApi\Tests\SproutsocialsApiTest" classname="ThinkOne.LaravelSproutsocialsApi.Tests.SproutsocialsApiTest" file="/home/vagrant/fmc.home/laravel-sproutsocials-api/tests/SproutsocialsApiTest.php" line="68" assertions="1" time="0.071793"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
