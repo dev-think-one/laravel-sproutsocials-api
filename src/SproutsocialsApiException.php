@@ -12,8 +12,8 @@ class SproutsocialsApiException extends \Exception
     public function __construct(Response $response)
     {
         $this->response = $response;
-        $error = $this->response->json('error', '');
-        if (! $error) {
+        $error          = $this->response->json('error', '');
+        if (!$error) {
             $error = $this->response->json('message', '');
         }
 

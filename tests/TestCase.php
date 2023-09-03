@@ -11,14 +11,14 @@ class TestCase extends Orchestra
         parent::setUp();
     }
 
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [
             \ThinkOne\LaravelSproutsocialsApi\ServiceProvider::class,
         ];
     }
 
-    public function defineEnvironment($app)
+    public function defineEnvironment($app): void
     {
         $app['config']->set('sproutsocials-api.http.api_token', 'some_api_token');
         $app['config']->set('sproutsocials-api.http.customer_id', '22');

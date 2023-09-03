@@ -13,7 +13,7 @@ class SproutsocialsApiExceptionTest extends TestCase
     public function has_response()
     {
         /** @var Response $spy */
-        $spy = $this->spy(Response::class);
+        $spy       = $this->spy(Response::class);
         $exception = new SproutsocialsApiException($spy);
 
         $this->assertEquals($spy, $exception->getResponse());

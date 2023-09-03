@@ -4,7 +4,7 @@
 
 You can install the package via composer:
 
-```bash
+```shell
 composer require yaroslawww/laravel-sproutsocials-api
 # optional publish configs
 php artisan vendor:publish --provider="ThinkOne\LaravelSproutsocialsApi\ServiceProvider" --tag="config"

@@ -176,7 +176,7 @@ class SproutsocialsApi
             $callUrl = trim($this->urlPrefix, '/') . '/' . $callUrl;
         }
 
-        $method = strtolower($method);
+        $method   = strtolower($method);
         $response = $this->client->{$method}($callUrl, $data);
 
         if ($response->ok()) {
@@ -193,7 +193,7 @@ class SproutsocialsApi
      */
     public function defaultCustomerId(): int
     {
-        if (! $this->defaultCustomerId) {
+        if (!$this->defaultCustomerId) {
             throw new NotSetCustomerException('Default Customer Id not set');
         }
 
