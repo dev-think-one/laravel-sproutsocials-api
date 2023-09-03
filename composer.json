@@ -1,16 +1,16 @@
 {
-    "name": "yaroslawww/laravel-sproutsocials-api",
+    "name": "think.studio/laravel-sproutsocials-api",
     "description": "sproutsocials api integration for laravel",
     "keywords": [
         "sproutsocials",
         "laravel-sproutsocials"
     ],
-    "homepage": "https://github.com/yaroslawww/laravel-sproutsocials-api",
+    "homepage": "https://github.com/dev-think-one/laravel-sproutsocials-api",
     "license": "MIT",
     "authors": [
         {
             "name": "Yaroslav Georgitsa",
-            "email": "yaroslav.georgitsa@gmail.com",
+            "email": "yg@think.studio",
             "homepage": "https://github.com/yaroslawww",
             "role": "Developer"
         }
